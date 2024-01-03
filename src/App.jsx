@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div className="relative font-['Inter'] bg-[#00111C] bg-fixed">
-        <img src={rays} className='absolute -top-6 w-full' alt="" />
+        <img src={rays} className='absolute z-10 -top-6 w-full' alt="" />
         <Navbar />
         <Main />
         <SoundToggle onToggle={handleSoundToggle} soundSrc={soundSource} />
