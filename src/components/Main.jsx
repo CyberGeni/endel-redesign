@@ -71,10 +71,12 @@ function Main() {
 					</h1>
 					<p className="tracking-tighter text-[#7E8D98] max-w-4xl mx-auto px-4 text-lg lg:text-xl ">
 						Our patented technology creates soundscapes that adapt in real
-						time.It reacts to inputs like time of day, weather, heart rate, and
+						time. It reacts to inputs like time of day, weather, heart rate, and
 						location and plays sound accordingly.
 					</p>
 				</section>
+				{/* partnerships */}
+				{/* prefooter */}
 			</div>
 		</>
 	);
