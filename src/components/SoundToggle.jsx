@@ -35,8 +35,8 @@ const SoundToggle = ({ onToggle, soundSrc }) => {
 
   return (
     <div>
-      <label className='text-white fixed bottom-[7.5%] left-[5%] flex items-center gap-1 bg-gradient-to-b from-[#14B3C8] to-[#25D1E8] p-1 bg-clip-text text-lg text-transparent font-medium tracking-tighter'>
-        <img src={sound} className='w-8' alt="" />
+      <label className='fixed bottom-8 md:bottom-[7.5%] left-4 md:left-[5%] flex items-center gap-1 bg-gradient-to-b from-[#14B3C8] to-[#25D1E8] p-1 bg-clip-text text-base md:text-lg text-transparent font-medium tracking-tighter'>
+        <img src={sound} className='w-5 sm:w-8' alt="" />
         {isSoundEnabled ? 'Disable' : 'Enable'} Sound
         <input
           type="checkbox"

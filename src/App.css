@@ -4,8 +4,49 @@
 	box-shadow: 0px 4px 9px 0px rgba(15, 77, 99, 0.17),
 		0px 1px 2px 0px #186b87 inset;
 }
-/* 
-  drop shadow
-  inner shadow
-  gradient background
-*/
+
+/* spark brain animation */
+@keyframes sparkAnimation {
+  0% {
+    stroke: #005D94;
+  }
+  10% {
+    stroke: #00b8ac;
+    opacity: 70%;
+  }
+  20% {
+    stroke: #005D94;
+  }
+  30% {
+    stroke: #00b8ac;
+    opacity: 70%;
+  }
+  40% {
+    stroke: #005D94;
+  }
+  50% {
+    stroke: #005d94;
+    opacity: 70%;
+  }
+  60% {
+    stroke: #00b8ac;
+  }
+  70% {
+    stroke: #00b8ac;
+    opacity: 70%;
+  }
+  80% {
+    stroke: #005D94;
+  }
+  90% {
+    stroke: #00b8ac;
+    opacity: 70%;
+  }
+  100% {
+    stroke: #005D94;
+  }
+}
+
+#spark path{
+  animation: sparkAnimation  700ms infinite; /* Adjust the duration as needed */
+}

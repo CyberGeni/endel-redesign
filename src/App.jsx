@@ -15,12 +15,11 @@ function App() {
   const soundSource = '/src/assets/So-Far-So-Good.mp3';
   return (
     <>
-      <div className="relative font-['Inter'] bg-[#00111C] bg-fixed">
+      <div className="transition-all relative font-['Inter'] bg-[#00111C] bg-fixed min-h-screen">
         <img src={rays} className='absolute z-10 -top-6 w-full' alt="" />
         <Navbar />
         <Main />
         <SoundToggle onToggle={handleSoundToggle} soundSrc={soundSource} />
-
       </div>
     </>
   )

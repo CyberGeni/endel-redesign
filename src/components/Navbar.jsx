@@ -6,10 +6,10 @@ function Navbar() {
 			<div className="fixed z-10 top-0 w-full backdrop-blur bg-[#0E4456]/10">
 				<nav className=" flex justify-between items-center py-4 w-[90%] mx-auto font-medium">
 					<div className="flex items-center gap-2">
-						<img src={logo} className="w-12" alt="" />
-						<span className="text-white text-xl font-medium">Endel</span>
+						<img src={logo} className="w-9 sm:w-10 md:w-12" alt="" />
+						<span className="text-white text-lg sm:text-xl font-medium">Endel</span>
 					</div>
-					<div className="text-[#CCD9E2]/80 font-normal space-x-4 tracking-normal">
+					<div className="hidden md:flex text-[#CCD9E2]/80 font-normal space-x-3 lg:space-x-4 tracking-normal">
 						<a href="">Sleep</a>
 						<a href="">Focus</a>
 						<a href="">Relax</a>
@@ -17,8 +17,8 @@ function Navbar() {
 						<a href="">About</a>
 						<a href="">Offers</a>
 					</div>
-					<div className="flex items-center gap-10">
-						<button className="text-white">Log in</button>
+					<div className="flex items-center sm:gap-4 lg:gap-10">
+						<button className="hidden sm:block text-white">Log in</button>
 						<Button label="Try Endel" />
 					</div>
 				</nav>
