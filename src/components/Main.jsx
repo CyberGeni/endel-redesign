@@ -2,7 +2,8 @@ import Button from "./Button";
 import starmask from "../assets/star-mask.png";
 import heromysticball from "../assets/mystic-ball-hero.png";
 import Spark from "./Spark";
-import brain from "../assets/brain.svg"
+import brain from "../assets/brain.png";
+import "../App.css";
 function Main() {
 	return (
 		<>
@@ -31,42 +32,49 @@ function Main() {
 				{/* personalized through neuroscience */}
 				<section className="mt-72">
 					<div className="space-y-4">
-						<h1 className="pt-40 sm:pt-0 md:pt-0 bg-gradient-to-b from-[#CCD9E2] to-[#7E8D98] py-1 px-4 md:px-6 bg-clip-text text-5xl md:text-[52px] xl:text-6xl text-transparent font-medium tracking-tighter">Personalized through <br /> neuroscience</h1>
+						<h1 className="pt-40 sm:pt-0 md:pt-0 bg-gradient-to-b from-[#CCD9E2] to-[#7E8D98] py-1 px-4 md:px-6 bg-clip-text text-5xl md:text-[52px] xl:text-6xl text-transparent font-medium tracking-tighter">
+							Personalized through <br /> neuroscience
+						</h1>
 						<p className="tracking-tighter text-[#7E8D98] max-w-4xl mx-auto px-4 text-lg lg:text-xl">
-							Our patented technology creates soundcapes that adapt in real time.
-							It reacts to inputs like time of day, weather, heart rate, and
-							location. Neuroscience shows Endel consistently improves focus and
-							lowers stress.
+							Our patented technology creates soundcapes that adapt in real
+							time. It reacts to inputs like time of day, weather, heart rate,
+							and location. Neuroscience shows Endel consistently improves focus
+							and lowers stress.
 						</p>
 					</div>
-					<div className="flex items-center justify-center -space-x-20 sm:-space-x-28 lg:-space-x-44 w-full mx-auto">
-						<div className="w-full z-[1]">
+					<div className="flex items-center justify-center -space-x-20 sm:-space-x-28 lg:-space-x-24 w-full mx-auto">
+						<div className="w-full z-[1] mix-blend-hard-light">
 							<Spark />
 						</div>
-						<div className="w-fit">
-							<img className="z-[-1] rounded-full object-cover w-[800px]" src={brain} alt="" />
+						<div className="w-fit relative">
+							<img className="w-[400px] " src={brain} alt="Your Image" />
 						</div>
-						<div  className="scale-x-[-1] w-full">
+						<div className="scale-x-[-1] w-full">
 							<Spark />
 						</div>
-						
 					</div>
 				</section>
-                {/* designed for various moods */}
-                <section>
-                    <h1>Designed for various moods</h1>
-                    <p>Endel is designed to enhance your natural capabilities, create a private environment to reduce stress, and help you be more present and involved without even having to meditate</p>
-                </section>
-                {/* customized sounds for different times of the day */}
-                <section>
-                    <img src="" alt="" />
-                    <h1 className="pt-40 sm:pt-0 md:pt-0 bg-gradient-to-b from-[#CCD9E2] to-[#7E8D98] py-1 px-4 md:px-6 bg-clip-text text-5xl md:text-7xl text-transparent font-medium tracking-tighter">
+				{/* designed for various moods */}
+				<section>
+					<h1 className="pt-40 sm:pt-0 md:pt-0 bg-gradient-to-b from-[#CCD9E2] to-[#7E8D98] py-1 px-4 md:px-6 bg-clip-text text-5xl md:text-[52px] xl:text-6xl text-transparent font-medium tracking-tighter">Designed for various moods</h1>
+					<p className="tracking-tighter text-[#7E8D98] max-w-4xl mx-auto px-4 text-lg lg:text-xl">
+						Endel is designed to enhance your natural capabilities, create a
+						private environment to reduce stress, and help you be more present
+						and involved without even having to meditate
+					</p>
+				</section>
+				{/* customized sounds for different times of the day */}
+				<section>
+					<img src="" alt="" />
+					<h1 className="pt-40 sm:pt-0 md:pt-0 bg-gradient-to-b from-[#CCD9E2] to-[#7E8D98] py-1 px-4 md:px-6 bg-clip-text text-5xl md:text-[52px] text-transparent font-medium tracking-tighter">
 						Customized sounds for different times of the day
 					</h1>
-					<p className="text-[#7E8D98] w-3/4 md:w-[unset] max-w-2xl mx-auto px-4 text-lg md:text-2xl">
-						Our patented technology creates soundscapes that adapt in real time.It reacts to inputs like time of day, weather, heart rate, and location and plays sound accordingly.
+					<p className="tracking-tighter text-[#7E8D98] max-w-4xl mx-auto px-4 text-lg lg:text-xl ">
+						Our patented technology creates soundscapes that adapt in real
+						time.It reacts to inputs like time of day, weather, heart rate, and
+						location and plays sound accordingly.
 					</p>
-                </section>
+				</section>
 			</div>
 		</>
 	);

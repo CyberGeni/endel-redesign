@@ -11,7 +11,7 @@
     stroke: #005D94;
   }
   10% {
-    stroke: #00b8ac;
+    stroke: #267ccc;
     opacity: 70%;
   }
   20% {
@@ -50,3 +50,7 @@
 #spark path{
   animation: sparkAnimation  700ms infinite; /* Adjust the duration as needed */
 }
+
+
+
+
